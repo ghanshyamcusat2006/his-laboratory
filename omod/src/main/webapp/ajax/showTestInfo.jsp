@@ -25,12 +25,7 @@
 		<td style="text-align:right;">Age:</td>
 		<td><b>${patient_age}</b></td>
 		<td style="text-align:right;">Gender:</td>
-		<td><b><c:choose>
-				<c:when test="${patient_gender eq 'M'}">Male</c:when>
-				<c:otherwise>Female</c:otherwise>
-			</c:choose>
-			</b>
-		</td>
+		<td><b>${patient.gender}</b></td>
 	</tr>
 	<tr>		
 		<td style="text-align:right;">Name:</td>
